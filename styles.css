@@ -158,7 +158,26 @@ h2 {
 .modal {
     display: flex;
     background-color: #1f2937;
-    height: 60px;
+    height: 90px;
+    width: 600px;
     color:rgb(126, 33, 33);
-    border-radius: 25px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.modal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.modal-text {
+    font-size: 16px;
 }
