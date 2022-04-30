@@ -114,3 +114,15 @@ h2 {
 .text {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e9a9a56;
+    height: 250px;
+}
