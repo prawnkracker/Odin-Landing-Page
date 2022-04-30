@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     height: 400px;
-    padding: 0 170px;
+    padding: 15px 130px;
 }
 
 .header {
@@ -41,13 +41,21 @@ li {
 }
 
 .store {
-    width: 300px;
-    height: auto;
+    max-width: 300px;
+    max-height: auto;
+    min-width: 150px;
+    min-height: auto;
+    width: 100%;
+}
+
+.first-photo {
+    display: flex;
+    align-items: center;
 }
 
 .under-header {
     display: flex;
-    padding: 90px 0;
+    padding: 75px 0;
     justify-content: space-between;
 }
 
@@ -55,7 +63,9 @@ li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 500px;
+    max-width: 400px;
+    flex-shrink: 1;
+
 }
 
 .first-header {
@@ -65,12 +75,14 @@ li {
 
 p {
     color: rgb(126, 33, 33);
+    display: flex;
+    flex: 1;
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    padding: 15px 170px;
+    padding: 15px max(170px);
 }
 
 h2 {
@@ -80,5 +92,25 @@ h2 {
 
 .rgx-image, .reaver-image, .ruination-image {
     width: 150px;
-    height: auto;
+    height: 84px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(23, 23, 44);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.rgx, .reaver, .ruination {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    flex-wrap: wrap;
+}
+
+.text {
+    text-align: center;
 }
