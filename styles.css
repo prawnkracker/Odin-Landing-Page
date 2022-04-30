@@ -71,12 +71,18 @@ li {
 .first-header {
     margin-bottom: 0;
     color: rgb(126, 33, 33);
+    font-weight: 900;
 }
 
 p {
     color: rgb(126, 33, 33);
     display: flex;
     flex: 1;
+}
+
+button {
+    background-color: rgb(126, 33, 33);
+    color: white;
 }
 
 .second {
@@ -117,6 +123,7 @@ h2 {
 
 .quote {
     display: flex;
+    flex-direction: column;
 }
 
 .third {
@@ -124,5 +131,34 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #9e9a9a56;
-    height: 250px;
+    height: 200px;
+    padding: 15px 130px;
+}
+
+.text-quote {
+    width: 400px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.name {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;  
+}
+
+.fourth {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    background-color: #1f2937;
+    height: 60px;
+    color:rgb(126, 33, 33);
+    border-radius: 25px;
 }
